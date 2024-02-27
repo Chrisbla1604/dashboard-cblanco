@@ -248,10 +248,13 @@ let loadData = () =>
       },
     });
 
+    //Seccion Dashboard Actividad POO
+    
     let newData = [100, 80, 60, 40, 20, 10, 1];
 
-    chart1.data.datasets[0].data = newData
-
+    chart1.data.datasets[0].data = newData;
+    chart1.data.datasets[0].backgroundColor = "rgba(255, 248, 45, .8)";
+    chart1.data.datasets[0].maxBarThickness = 10 ;
 
 }
 
